@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(45 45 67);
+    ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar navi{
+    width: 18px;
+}
+
+.navtext ul li {
+    margin-right: 27px;
+}
+
+.navtext ul li a {
+    color: white;
+}
+
+.navtext {
+    margin-left: -6%;
+}
+
+
+.navright i {
+    margin-right: 19px;
+}
+
+.navbar {
+    padding: 3% 2%;
+}
+
+.sec1 {
+    background:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(../img/img3.jpg);
+    
+    FONT-VARIANT: JIS04;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+}
+
+.sec1text {
+    margin-bottom: 1%;
+
+}
+
+.sec1text a {
+    padding: 12px 30px;
+    border-radius: 11px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.radiosec1 input {
+    margin-right: 10px;
+}
+
+.sec2box1 h1 {
+    margin-right: 15px;
+}
+
+
+.sec2box1,
+.sec2box2,
+.sec2box3 {
+    width: 30%;
+}
+
+.sec2box3 a {
+    padding: 14px 20px;
+    border-radius: 11px;
+    background-color: rgb(57, 45, 45);
+    color: white;
+    border: none;
+}
+
+
+
+
+.sec3box {
+    background:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(../img/img10.png);
+    FONT-VARIANT: JIS04;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 21%;
+    margin: 0 2%;
+    align-items: start;
+    padding-left: 2%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec4box1 {
+    margin-right: 3%;
+    width: 25%;
+    padding: 3%;
+}
+
+.sec4box1 i {
+    width: 10px;
+    background-color: black;
+    border-radius: 50px;
+    height: 10px;
+}
+
+.sec5 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../img/img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    height: 25rem;
+}
+
+.sec5 .sec5text {
+    width: 50%;
+    margin-left: 1%;
+}
+
+.sec5 img {
+    width: 40%;
+
+    height: 18rem;
+}
+
+.sec5text a {
+    padding: 12px 20px;
+    border-radius: 11px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+
+
+.sec5text {
+    margin-right: 17px;
+    height: 12rem;
+}
+
+.foot ul li {
+    margin-right: 17px;
+    width: 20%;
+
+}
+
+
+
+.foot ul li h6 {
+    font-size: large;
+}
+
+.foot ul li p {
+    font-size: xx-small;
+}
+
+
+.foot ul li i {
+    width: 20px;
+    height: 3vh;
+    margin-right: 5px;
+}
